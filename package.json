@@ -1,0 +1,19 @@
+{
+  "name": "jekyll-boilerplate",
+  "version": "1.0.0",
+  "description": "A starting point for projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bundle exec jekyll serve  --trace --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hit-hard/jekyll-boilerplate.git"
+  },
+  "author": "HIT HARD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hit-hard/jekyll-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hit-hard/jekyll-boilerplate#readme"
+}
