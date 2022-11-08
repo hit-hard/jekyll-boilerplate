@@ -3,16 +3,20 @@
   <head>
     {% include modules/meta-data.html %}
     <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
+
+    <!-- TODO: remove this line -->
+    <link rel="stylesheet" href="https://barebook.gm/assets/css/index.css">
   </head>
   <body>
     <div class="ob-page">
-     
       {{ content }}
-      
     </div>
 
     {% include components/navigation/fullscreen-nav.html %}
     
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+
+    <!-- TODO: remove this line -->
+    <script src="https://barebook.gm/assets/js/index.js"></script>
   </body>
 </html>
