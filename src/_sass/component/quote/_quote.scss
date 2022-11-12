@@ -3,7 +3,6 @@
   max-width: var(--contain-large);
   margin: var(--gutter-medium) auto;
   padding-block-start: var(--gutter-small);
-  //text-align: center;
   color: var(--surface-fade);
 
   p {
@@ -62,7 +61,12 @@
   margin-block-start: var(--spacing-tiny);
 }
 
+  // Modifiers
+  .cp-quote--center {
+    text-align: center;
+  }
+
   // Element modifiers
-  .cp-quote__citation--align-left {
+  .cp-quote__citation--left {
     text-align: left;
   }

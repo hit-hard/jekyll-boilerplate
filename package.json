@@ -4,15 +4,13 @@
   "description": "A starting point for projects",
   "scripts": {
     "dev": "bundle exec jekyll serve",
-    "build": "JEKYLL_ENV=production bundle exec jekyll build",
-    "lint:style": "npx stylelint \"**/*.scss\"",
-    "fix:style": "npx stylelint --fix \"**/*.scss\""
+    "build": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hit-hard/jekyll-boilerplate.git"
   },
-  "author": "HIT HARD",
+  "author": "A Camariana <camariana40@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hit-hard/jekyll-boilerplate/issues"
